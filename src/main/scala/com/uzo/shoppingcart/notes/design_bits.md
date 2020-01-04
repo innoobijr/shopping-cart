@@ -51,3 +51,58 @@ type HttpRoutes[F[_]] = Http[OptionT[F, ?], F]
 #### 2. Composing Routes
 Use `SemigroupK` which is included in `cats.core`. It is very similar to `Semigroup`, the different 
 is that `SemigroupK` operates on type constructors of one argument i.e `F[_]`. 
+
+
+#### 3. Middlewares
+Middleware allows us ot manipulate `Requests` and `Responses`. it is expressed as a function.
+The two most common middlewares have either of the following shapes:
+```scala
+HttpsRoutes[F] => HttpRoutes[F]
+```
+or 
+```scala
+HttpsApp[F] => HttpApp[F]
+```
+
+It definition is more generic:
+```scala
+type Middleware[F[_], A, B, C, D] = Kleisli[F, A, B] => Kleisli[F, C, D]
+
+```
+
+There are a few predefined middlewate we can make use of, i.e CORS middleware, If we wanted 
+to support CORS for all our routes, we could do the following:
+```scala
+val modRoutes: HttpRoutes[F] = CORS(allRoutes)
+```
+
+##### Compositionality
+Since middlewares are functions, we can define a single function that combines all the
+middlewares we want to apply to all our HTTP routes. Here is one simple way to do it:
+```scala
+val middleware: HttpRoutes[F] => HttpRoutes[F] = {
+{ http: HttpRoutes[F] =>
+  AutoSlash(http)
+} andThen { http: HttpRoutes[F] =>
+  CORS(http, CORS.DefaultCORSConfig)
+} andThen { http: HttpRoutes[F] =>
+  Timeout(60.seconds)(http)
+}
+```
+Some middlewares require an HttpApp[F] instead of HttpRoutes[F], in such a case, it
+is better to declare them separately:
+```scala
+val closedMiddleware: HttpApp[F] => HttpApp[F] = {
+    { http: HttpApp[F] =>
+      RequestLogger.httpApp(true, true)(http)
+    } andThen { http: HttpApp[F] =>
+      ResponseLogger.httpApp(true, true)(http)
+    }
+}
+```
+Then, we can compose them together as follows:
+
+```scala
+val finalRoutes: HttpApp[F] =
+    closedMiddleware(middleware(allRoutes).orNotFound)
+```

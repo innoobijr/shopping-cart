@@ -36,6 +36,13 @@ object json {
   implicit val itemIdEncoder: Encoder[ItemId] =
     Encoder.forProduct1("value")(_.value)
 
+  implicit val paymentIdEncoder: Encoder[PaymentId] =
+    Encoder.forProduct1("value")(_.value)
+
+  implicit val paymentIdDecoder: Decoder[PaymentId] =
+    Decoder.forProduct1("value")(PaymentId.apply)
+
+
   implicit val orderIdDecoder: Decoder[OrderId] =
     Decoder.forProduct1("value")(OrderId.apply)
 

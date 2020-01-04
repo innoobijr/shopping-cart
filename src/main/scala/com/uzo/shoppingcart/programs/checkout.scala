@@ -9,7 +9,7 @@ import retry.RetryDetails._
 import io.chrisdavenport.log4cats.Logger
 import com.uzo.shoppingcart.algebras.{Orders, ShoppingCart}
 import com.uzo.shoppingcart.domain.auth.UserId
-import com.uzo.shoppingcart.domain.cart.CartItem
+import com.uzo.shoppingcart.domain.cart.{CartItem, CartTotal}
 import com.uzo.shoppingcart.domain.checkout._
 import com.uzo.shoppingcart.domain.order._
 import com.uzo.shoppingcart.effects.Background
@@ -19,7 +19,7 @@ import squants.market.Money
 
 import scala.concurrent.duration._
 
-final class CheckoutProgram[F[_]: Monad : Background: Logger: MonadThrow: Timer](
+final class CheckoutProgram[F[_]: Background: Logger: MonadThrow: Timer](
                                         paymentClient: PaymentClient[F],
                                         shoppingCart: ShoppingCart[F],
                                         orders: Orders[F]
@@ -86,11 +86,15 @@ final class CheckoutProgram[F[_]: Monad : Background: Logger: MonadThrow: Timer]
       4. soppingCart.delete(..)
    */
   def checkout(userId: UserId, card: Card): F[OrderId] =
-    for {
-      cart <- shoppingCart.get(userId)
-      paymentId <- paymentClient.process(userId, cart.total, card)
-      orderId <- orders.create(userId, paymentId, cart.total)
-      _ <- shoppingCart.delete(userId)
-    } yield orderId
+    shoppingCart.get(userId)
+    .ensure(EmptyCartError)(_.items.nonEmpty)
+    .flatMap {
+      case CartTotal(items, total) =>
+        for {
+          pid <- processPayment(userId, total, card)
+          order <- createOrder(userId, pid, items, total)
+          _ <- shoppingCart.delete(userId).attempt.void
+        } yield order
+    }
 
 }

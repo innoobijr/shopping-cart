@@ -7,7 +7,7 @@ import io.estatico.newtype.macros.newtype
 import java.util.UUID
 
 import com.uzo.shoppingcart.domain.brand._
-//import com.uzo.shoppingcart.domain.category._
+import com.uzo.shoppingcart.domain.category._
 import squants.market._
 
 object item {
@@ -34,7 +34,7 @@ object item {
                             description: ItemDescriptionParam,
                             price: Money,
                             brandId: BrandId,
-                            category: CategoryId
+                            categoryId: CategoryId
                             ){
 
       def toDomain: CreateItem =

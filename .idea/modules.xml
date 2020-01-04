@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shoppingcart.iml" filepath="$PROJECT_DIR$/.idea/modules/shoppingcart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shoppingcart-build.iml" filepath="$PROJECT_DIR$/.idea/modules/shoppingcart-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core-build.iml" filepath="$PROJECT_DIR$/.idea/modules/core-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shopping-cart-core.iml" filepath="$PROJECT_DIR$/.idea/modules/shopping-cart-core.iml" />
     </modules>
   </component>
 </project>

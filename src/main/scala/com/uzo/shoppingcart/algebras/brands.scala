@@ -1,6 +1,6 @@
 package com.uzo.shoppingcart.algebras
 
-import com.uzo.shoppingcart.domain.brand.Brand
+import com.uzo.shoppingcart.domain.brand.{Brand, BrandName}
 
 
 /**
@@ -11,5 +11,5 @@ import com.uzo.shoppingcart.domain.brand.Brand
   */
 trait Brands[F[_]]{
   def findAll: F[List[Brand]]
-  def create(brand: Brand): F[Unit]
+  def create(brand: BrandName): F[Unit]
 }

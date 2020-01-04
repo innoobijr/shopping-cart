@@ -13,7 +13,7 @@ object auth {
 
   @newtype case class EncryptPassword(value: String)
 
-  @newtype case class EncruptCipher(value: Cipher)
+  @newtype case class EncryptCipher(value: Cipher)
   @newtype case class DecryptCipher(value: Cipher)
 
   //------------------ user registration --------------------------
@@ -28,12 +28,12 @@ object auth {
 
   case class CreateUser(
     username: UserNameParam,
-    passwod: PasswordParam
+    password: PasswordParam
                        )
 
-  case class UserNameInUser(username: UserName) extends NoStackTrace
+  case class UserNameInUse(username: UserName) extends NoStackTrace
   case class InvalidUserOrPassword(username: UserName) extends NoStackTrace
-  case object UnsupportedOperated extends NoStackTrace
+  case object UnsupportedOperation extends NoStackTrace
 
   case object TokenNotFound extends NoStackTrace
 

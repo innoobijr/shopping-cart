@@ -1,8 +1,6 @@
 package com.uzo.shoppingcart.effects
 
-import cats.{ ApplicativeError, MonadError }
-import cats.effect.Bracket
-import cats.mtl.ApplicativeAsk // {** WIT **}
+import cats.MonadError
 
 package object effects {
 

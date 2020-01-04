@@ -1,6 +1,5 @@
 package com.uzo.shoppingcart.programs
 
-import cats.Monad
 import cats.effect.Timer
 import cats.implicits._
 import retry._
@@ -37,7 +36,7 @@ final class CheckoutProgram[F[_]: Background: Logger: MonadThrow: Timer](
       )
     case g: GivingUp =>
       Logger[F].error(
-        s"Giving up on $action after ${g.totalRetries} retries."
+        s"with ${e.getMessage}. Giving up on $action after ${g.totalRetries} retries."
       )
   }
 

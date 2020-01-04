@@ -5,7 +5,7 @@ import io.estatico.newtype.macros.newtype
 import java.util.UUID
 
 object category {
-  @newtype case class CategoryId(calue: UUID)
+  @newtype case class CategoryId(value: UUID)
   @newtype case class CategoryName(value: String)
 
   @newtype case class CategoryParam(value: NonEmptyString){

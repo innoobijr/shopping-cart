@@ -12,7 +12,10 @@ libraryDependencies ++= Seq(
   "io.estatico" %% "newtype" % "0.4.3",
   "eu.timepit" %% "refined" % "0.9.10",
   "org.typelevel"  %% "squants"  % "1.6.0",
-  "dev.profunktor" %% "http4s-jwt-auth" % "0.0.3"
+  "dev.profunktor" %% "http4s-jwt-auth" % "0.0.3",
+  "com.github.cb372" %% "cats-retry" % "1.0.0",
+  "io.chrisdavenport" %% "log4cats-core"    % "1.0.1",
+  "org.typelevel" %% "cats-mtl-core" % "0.7.0"
 )
 
 scalacOptions += "-Ymacro-annotations"

@@ -22,6 +22,7 @@ object Dependencies {
 
     val betterMonadicFor = "0.3.1"
     val kindProjector    = "0.11.0"
+    val paradise         = "2.1.1"
     val logback          = "1.2.3"
 
     val scalaCheck    = "1.14.3"
@@ -74,6 +75,8 @@ object Dependencies {
     // Compiler plugins
     val betterMonadicFor = "com.olegpy"    %% "better-monadic-for" % Versions.betterMonadicFor
     val kindProjector    = "org.typelevel" % "kind-projector"      % Versions.kindProjector
+    val paradise         = "org.scalamacros"  %%  "paradise"        % Versions.paradise
+
 
     // Runtime
     val logback = "ch.qos.logback" % "logback-classic" % Versions.logback

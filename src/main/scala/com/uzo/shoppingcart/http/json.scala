@@ -1,5 +1,7 @@
 package com.uzo.shoppingcart.http
 
+import java.util.UUID
+
 import cats.effect.Sync
 import dev.profunktor.auth.jwt.JwtToken
 import io.circe._
@@ -7,8 +9,8 @@ import io.circe.generic.semiauto._
 import io.circe.refined._
 import io.estatico.newtype.Coercible
 import io.estatico.newtype.ops._
-import org.http4s.{ EntityDecoder, EntityEncoder }
-import org.http4s.circe.{ jsonEncoderOf, jsonOf }
+import org.http4s.{EntityDecoder, EntityEncoder}
+import org.http4s.circe.{jsonEncoderOf, jsonOf}
 import com.uzo.shoppingcart.domain.auth._
 import com.uzo.shoppingcart.domain.brand._
 import com.uzo.shoppingcart.domain.cart._
@@ -32,6 +34,12 @@ object json {
 
   implicit val itemIdDecoder: Decoder[ItemId] =
     Decoder.forProduct1("value")(ItemId.apply)
+
+  implicit val brandIdEncoder: Encoder[BrandId] =
+    Encoder.forProduct1("value")(_.value)
+
+  implicit val brandIdDecoder: Decoder[BrandId] =
+    Decoder.forProduct1("value")(BrandId.apply)
 
   implicit val itemIdEncoder: Encoder[ItemId] =
     Encoder.forProduct1("value")(_.value)
@@ -69,16 +77,19 @@ object json {
 
 
   // ----- Coercible codecs -----
-  implicit def coercibleDecoder[A: Coercible[B, ?], B: Decoder]: Decoder[A] =
+  implicit def coercibleDecoder[A: Coercible[B, *], B: Decoder]: Decoder[A] =
     Decoder[B].map(_.coerce[A])
 
-  implicit def coercibleEncoder[A: Coercible[B, ?], B: Encoder]: Encoder[A] =
+  implicit def coercible[A: Coercible[UUID, *]](a : UUID) =
+    a.coerce[A]
+
+  implicit def coercibleEncoder[A: Coercible[B, *], B: Encoder]: Encoder[A] =
     Encoder[B].contramap(_.repr.asInstanceOf[B])
 
-  implicit def coercibleKeyDecoder[A: Coercible[B, ?], B: KeyDecoder]: KeyDecoder[A] =
+  implicit def coercibleKeyDecoder[A: Coercible[B, *], B: KeyDecoder]: KeyDecoder[A] =
     KeyDecoder[B].map(_.coerce[A])
 
-  implicit def coercibleKeyEncoder[A: Coercible[B, ?], B: KeyEncoder]: KeyEncoder[A] =
+  implicit def coercibleKeyEncoder[A: Coercible[B, *], B: KeyEncoder]: KeyEncoder[A] =
     KeyEncoder[B].contramap[A](_.repr.asInstanceOf[B])
 
   // ----- Domain codecs -----
@@ -122,10 +133,15 @@ object json {
   implicit val userDecoder: Decoder[User] = deriveDecoder[User]
   implicit val userEncoder: Encoder[User] = deriveEncoder[User]
 
+  //implicit val brandIdTDecoder: Decoder[BrandId] = deriveDecoder[BrandId]
+  //implicit val brandIdTEncoder: Encoder[BrandId] = deriveEncoder[BrandId]
+
   //implicit val appStatusEncoder: Encoder[AppStatus] = deriveEncoder[AppStatus]
 
   implicit val createUserDecoder: Decoder[CreateUser] = deriveDecoder[CreateUser]
 
   implicit val loginUserDecoder: Decoder[LoginUser] = deriveDecoder[LoginUser]
+
+
 
 }

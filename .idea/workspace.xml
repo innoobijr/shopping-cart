@@ -1,436 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e8c7594-7742-4fb1-b25b-cced14b5d27e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/clients/payments.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/clients/payments.scala" afterDir="false" />
+    <list default="true" id="c2b27d3d-c63b-46ef-97b3-7971b4634512" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/shopping-cart-core-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/GenUUID.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/untitled.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/ext/skunkx.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/updateFull/update_cache_2.13/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.13/updateFull/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/shopping-cart-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shopping-cart-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Dependencies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/project/Dependencies.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22e35fb2539f387baebc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22e35fb2539f387baebc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22e35fb2539f387baebc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e5623e50092ec6a4630$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e5623e50092ec6a4630.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e5623e50092ec6a4630.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4284ae9c719a8f20abc6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4284ae9c719a8f20abc6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4284ae9c719a8f20abc6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68317058502f14afecba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68317058502f14afecba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68317058502f14afecba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fe637aea8ddb1e6b3cc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fe637aea8ddb1e6b3cc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fe637aea8ddb1e6b3cc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e31d791ff2c4de8658fe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e31d791ff2c4de8658fe.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e31d791ff2c4de8658fe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f90e047a5aef0b418532$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f90e047a5aef0b418532.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f90e047a5aef0b418532.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Libraries$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Libraries$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Versions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Versions$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/brands.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/brands.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/items.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/items.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/brand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/brand.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/effects.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/effects.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/params.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/params.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/ItemRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/ItemRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminCategoryRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminCategoryRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminItemRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminItemRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LogoutRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LogoutRoutes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CheckoutRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CheckoutRoutes.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/notes/design_bits.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/notes/design_bits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/programs/checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/programs/checkout.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Auth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Brands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Brands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$Ops$newtype$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$Ops$newtype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$UnsupportedOperated$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$UserNameInUser$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$UserNameInUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/effects/effects/package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/effects/effects/package$MonadThrow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/effects/effects/package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$anon$macro$99$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$anon$macro$99$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$anon$macro$109$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$anon$macro$109$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$anon$macro$119$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$anon$macro$119$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$anon$macro$129$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$anon$macro$129$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$anon$macro$143$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$anon$macro$143$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$anon$macro$157$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$anon$macro$157$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$anon$macro$167$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$anon$macro$167$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$anon$macro$177$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$anon$macro$177$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$anon$macro$187$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$anon$macro$187$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$anon$macro$17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$anon$macro$17$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$anon$macro$197$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$anon$macro$197$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$anon$macro$27$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$anon$macro$27$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$anon$macro$37$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$anon$macro$37$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$anon$macro$55$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$anon$macro$55$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$anon$macro$73$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$anon$macro$73$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$anon$macro$7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$anon$macro$7$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$anon$macro$89$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$anon$macro$89$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$BrandQueryParam$$anonfun$$lessinit$greater$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$BrandQueryParam$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$BrandQueryParam$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/notes/design_bits.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/notes/design_bits.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$processPayment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$processPayment$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/project/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1635883233">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="3" />
-          <entry key="properties" value="1" />
-          <entry key="sbt" value="6" />
-          <entry key="scala" value="80" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="3" />
-          <entry key="Properties" value="1" />
-          <entry key="Scala" value="80" />
-          <entry key="sbt" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="md" value="2700" />
-          <entry key="sbt" value="259" />
-          <entry key="scala" value="16709" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="2674" />
-          <entry key="Scala" value="16735" />
-          <entry key="sbt" value="259" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/checkout.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="e#37#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/ext/refined.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#34#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/orders.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="e#39#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding>
-                <element signature="e#39#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1023">
-              <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-              <folding>
-                <element signature="e#35#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/item.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-              <folding>
-                <element signature="e#37#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/order.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="e#37#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="e#39#116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/clients/payments.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-              <folding>
-                <element signature="e#43#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>shop.</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Desktop/cliniQ/microservices/kotlin" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/demo" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/Item.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/domain.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/user.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/brand.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/order.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/specs.md" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/items.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/orders.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/auth/users.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/checkout.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/Background.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/BrandRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/ext/refined.scala" />
-        <option value="$PROJECT_DIR$/project/Dependencies.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/category.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/item.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/effects.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/CategoryRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/programs/checkout.scala" />
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/ItemRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/params.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/cart.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CartRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/OrderRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/decoder.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CheckoutRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LoginRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LogoutRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/auth.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/UserRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/brands.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminBrandRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminCategoryRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminItemRoutes.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/notes/design_bits.md" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/clients/payments.scala" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1Vwm3dTzetZnbHGX74SqsAXoQMV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="23" />
-    <option name="width" value="1358" />
-    <option name="height" value="833" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="algebras" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shopping-cart-core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="shoppingcart" type="462c0819:PsiDirectoryNode" />
-              <item name="programs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578120958287" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="6" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -449,7 +237,7 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="core-build [file:/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/]" />
+                <option name="name" value="shopping-cart-core-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -459,26 +247,30 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="689069292" />
-        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="1807994710" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="2138381237" />
-        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1800100078" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="990018961" />
+        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="3774791916" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2912332145" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="718580477" />
       </map>
     </option>
-    <option name="projectSyncType">
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
       <map>
-        <entry key="$USER_HOME$/Desktop/May_2019/scalabird/scala-bootstrapper/Serveing" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/cliniQ/microservices/SurveyService" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/openie" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/php_env/scala" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/scalabird/scala-bootstrapper/eagles" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/IdeaProjects/GraphXSpark" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/IdeaProjects/ScalaSparkExample" value="PREVIEW" />
-        <entry key="$USER_HOME$/akka/streams" value="PREVIEW" />
-        <entry key="$USER_HOME$/scala/play-scala-hello-world-tutorial" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../../TOSHIBA EXT/dev/cliniQ/microservices/SurveyService" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../sandbox" value="PREVIEW" />
+        <entry key="xml" value="XML" />
       </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -486,531 +278,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e8c7594-7742-4fb1-b25b-cced14b5d27e" name="Default Changelist" comment="" />
-      <created>1577928299928</created>
+      <changelist id="c2b27d3d-c63b-46ef-97b3-7971b4634512" name="Default Changelist" comment="" />
+      <created>1578172334173</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577928299928</updated>
+      <updated>1578172334173</updated>
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="72" y="23" width="1358" height="833" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19604863" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Project Explorer" order="5" weight="0.32967892" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Job Explorer" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.14304993" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32928476" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928476" />
-      <window_info anchor="bottom" id="Console" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="320" y="106" key="#Updates" timestamp="1578172426364">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="320" y="106" key="#Updates/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578172426364" />
+    <state x="458" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1578185340281">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="458" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578185340281" />
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578173514328">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578173514328" />
+    <state x="211" y="175" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578190630001">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="211" y="175" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578190630001" />
+    <state x="229" y="23" width="1024" height="834" key="SettingsEditor" timestamp="1578190552258">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="229" y="23" width="1024" height="834" key="SettingsEditor/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578190552258" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1578190737465">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578190737465" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/user.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/specs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="13" column="13" selection-start-line="11" selection-start-column="9" selection-end-line="13" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/items.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#39#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/auth/users.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/Background.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#38#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/Dependencies.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/effects.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/CategoryRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#42#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/build.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/programs/checkout.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="e#39#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/ItemRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/params.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#35#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/cart.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <element signature="e#37#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/OrderRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#50#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/decoder.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#35#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CartRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="e#50#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CheckoutRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#73#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LogoutRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
-          <folding>
-            <element signature="e#47#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LoginRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#47#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/auth.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#37#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/BrandRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#42#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/UserRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-          <folding>
-            <element signature="e#48#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/brands.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminBrandRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/category.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="e#37#90#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/brand.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminCategoryRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#48#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminItemRoutes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#48#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/notes/design_bits.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="102" column="43" lean-forward="true" selection-start-line="102" selection-start-column="43" selection-end-line="102" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/item.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="e#37#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/checkout.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="e#37#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/ext/refined.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#34#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/orders.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#39#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#39#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="e#39#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1023">
-          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="e#35#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/order.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#37#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/clients/payments.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="e#43#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Bundled Protobuf Distribution</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>shoppingcart-build</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>sbt: org.scala-lang:scala-library:2.13.1:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WorksheetDefaultProjectSettings">
+    <option name="compilerProfileName" value="Default" />
+    <option name="makeBeforeRun" value="true" />
+    <option name="moduleName" value="shopping-cart-core" />
   </component>
 </project>

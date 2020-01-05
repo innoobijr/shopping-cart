@@ -1,7 +1,7 @@
 package com.uzo.shoppingcart.algebras
 
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion.User
 import com.uzo.shoppingcart.domain.auth.{Password, UserName}
+import com.uzo.shoppingcart.http.auth.users.User
 import dev.profunktor.auth.jwt.JwtToken
 
 

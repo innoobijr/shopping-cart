@@ -1,0 +1,4 @@
+[debug] [shoppingcart-build] Classpath dependencies List()
+[debug] [shoppingcart-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'shoppingcart-build' to '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/project/.bloop/shoppingcart-build.json'
+[success] Generated .bloop/shoppingcart-build.json

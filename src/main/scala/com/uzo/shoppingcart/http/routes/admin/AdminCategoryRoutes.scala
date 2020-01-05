@@ -4,7 +4,7 @@ import cats.effect.Sync
 import org.http4s._
 import org.http4s.dsl.Http4sDsl
 import org.http4s.server._
-import com.uzo.shoppingcart.algebras.{Brands, Categories}
+import com.uzo.shoppingcart.algebras.Categories
 import com.uzo.shoppingcart.domain.category.CategoryParam
 import com.uzo.shoppingcart.http.auth.users.AdminUser
 import com.uzo.shoppingcart.http.decoder._

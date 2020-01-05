@@ -19,7 +19,7 @@ final class CheckoutRoutes[F[_]: Sync](
 
   private[routes] val prefixPath = "/checkout"
 
-  private val httpsRoutes: AuthedRoutes[CommonUser, F] =
+  private val httpRoutes: AuthedRoutes[CommonUser, F] =
     AuthedRoutes.of{
       case ar @ POST -> Root as user =>
         ar.req.decodeR[Card]{ card =>

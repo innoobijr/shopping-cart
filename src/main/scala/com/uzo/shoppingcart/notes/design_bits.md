@@ -24,13 +24,13 @@ Request => OptionT[F, Response]
 
 //or finally, Kleisli, or also know as ReaderT, is a monad transformer for functins, we can replace the 
 // => arrow with it:
-Kleisli[OptionT[F, ?], Request, Response] 
+Kleisli[OptionT[F, *], Request, Response] 
 
 // If we modify Request and Response types we get
-Kleisli[OptionT[F, ?], Request[F], Response[F]] 
+Kleisli[OptionT[F, *], Request[F], Response[F]] 
 
 //which is
-type HttpRoutes[F] = Kleisli[OptionT[F, ?], Request[F], Response[F]] 
+type HttpRoutes[F] = Kleisli[OptionT[F, *], Request[F], Response[F]] 
 
 ```
 There are cases where we need to guarantee tha given a request we can retuen a response. In such cases
@@ -44,7 +44,7 @@ type HttpApp[F] = Kleisli[F, Request[F], Response[F]]
 type Http[F[_], G[_]] = Kleisli[F, Request[G], Response[G]]
 
 type HttpApp[F[_]] = Http[F, F]
-type HttpRoutes[F[_]] = Http[OptionT[F, ?], F]
+type HttpRoutes[F[_]] = Http[OptionT[F, *], F]
 
 ```
 
@@ -106,3 +106,7 @@ Then, we can compose them together as follows:
 val finalRoutes: HttpApp[F] =
     closedMiddleware(middleware(allRoutes).orNotFound)
 ```
+
+#### 3. Using Skunk
+* Once we have the schema, we need ot define the codes, querires, and commands. A good
+practivec is to define thatn in a private object in the same file. 

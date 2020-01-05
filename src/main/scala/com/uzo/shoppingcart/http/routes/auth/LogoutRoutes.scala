@@ -6,10 +6,7 @@ import org.http4s._
 import org.http4s.dsl.Http4sDsl
 import org.http4s.server.{AuthMiddleware, Router}
 import com.uzo.shoppingcart.algebras.Auth
-import com.uzo.shoppingcart.domain.auth._
 import com.uzo.shoppingcart.http.auth.users.CommonUser
-import com.uzo.shoppingcart.http.decoder._
-import com.uzo.shoppingcart.http.json._
 import dev.profunktor.auth.AuthHeaders
 
 final class LogoutRoutes[F[_]: Sync](

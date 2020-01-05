@@ -1,11 +1,11 @@
 package com.uzo.shoppingcart.domain
 
-import scala.util.control.NoStackTrace
 import eu.timepit.refined.types.string.NonEmptyString
 import io.estatico.newtype.macros.newtype
 import java.util.UUID
 
-import shapeless.newtype
+import scala.util.control.NoStackTrace
+
 
 
 object brand {

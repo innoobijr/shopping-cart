@@ -6,13 +6,12 @@ import retry._
 import retry.RetryPolicies._
 import retry.RetryDetails._
 import io.chrisdavenport.log4cats.Logger
-import com.uzo.shoppingcart.algebras.{Orders, ShoppingCart}
+import com.uzo.shoppingcart.algebras._
 import com.uzo.shoppingcart.domain.auth.UserId
-import com.uzo.shoppingcart.domain.cart.{CartItem, CartTotal}
+import com.uzo.shoppingcart.domain.cart._
 import com.uzo.shoppingcart.domain.checkout._
 import com.uzo.shoppingcart.domain.order._
-import com.uzo.shoppingcart.effects.Background
-import com.uzo.shoppingcart.effects.effects.MonadThrow
+import com.uzo.shoppingcart.effects._
 import com.uzo.shoppingcart.http.clients.PaymentClient
 import squants.market.Money
 

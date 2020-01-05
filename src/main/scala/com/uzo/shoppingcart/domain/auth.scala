@@ -11,7 +11,7 @@ object auth {
   @newtype case class UserName(value: String)
   @newtype case class Password(value: String)
 
-  @newtype case class EncryptPassword(value: String)
+  @newtype case class EncryptedPassword(value: String)
 
   @newtype case class EncryptCipher(value: Cipher)
   @newtype case class DecryptCipher(value: Cipher)

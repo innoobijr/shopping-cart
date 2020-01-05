@@ -6,6 +6,7 @@ ThisBuild / organization := "com.uzo"
 ThisBuild / organizationName := "Uzo"
 
 resolvers += Resolver.sonatypeRepo("snapshots")
+resolvers += Resolver.sonatypeRepo("releases")
 
 
 lazy val root = (project in file("."))
@@ -22,6 +23,7 @@ lazy val core = (project in file("."))
     Defaults.itSettings,
     libraryDependencies ++= Seq(
       compilerPlugin(Libraries.kindProjector cross CrossVersion.full),
+      //compilerPlugin(Libraries.paradise cross CrossVersion.full),
       compilerPlugin(Libraries.betterMonadicFor),
       Libraries.cats,
       Libraries.catsEffect,

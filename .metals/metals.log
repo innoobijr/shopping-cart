@@ -1622,3 +1622,1113 @@ INFO  time: compiled core in 1.73s
 ERROR Failed to compile 'core'
 INFO  compiling core (4 scala sources)
 INFO  time: compiled core in 7.13s
+INFO  time: initialize in 0.74s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/bsp9101941999096481874/d9stwiik7jwm.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/users.scala
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/innocentjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+The server is listening for incoming connections at local:///var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/bsp9101941999096481874/d9stwiik7jwm.socket...
+Accepted incoming BSP client connection at local:///var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/bsp9101941999096481874/d9stwiik7jwm.socket
+request received: build/initialize
+INFO  time: connected to build server in 9.58s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.8s
+INFO  time: indexed workspace in 2.49s
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/users.scala in skunk.Command[com.uzo.shoppingcart.http.auth.users.User ~ com.uzo.shoppingcart.domain.auth.EncryptedPassword]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/users.scala, 2582, 2582, 2615)
+Jan 05, 2020 6:40:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in com.uzo.shoppingcart.algebras.Items[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 648, 648, 663)
+Jan 05, 2020 6:40:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/joran/spi/,DefaultNestedComponentRegistry.class)
+Jan 05, 2020 6:40:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/net/ssl/,SSLNestedComponentRegistryRules.class)
+Jan 05, 2020 6:41:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 300
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in com.uzo.shoppingcart.algebras.ShoppingCart[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 804, 804, 826)
+Jan 05, 2020 6:53:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 384
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 902, 902, 913)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 902, 902, 906)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[Unit]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 902, 902, 909)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[Unit]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 902, 902, 909)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[Unit]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 902, 902, 909)
+Jan 05, 2020 6:54:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 549
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1184)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1177)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1178)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1179)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[com.uzo.shoppingcart.domain.cart.Cart]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1180)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1181)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[com.uzo.shoppingcart.domain.cart.CartTotal]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1185)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[com.uzo.shoppingcart.domain.cart.CartTotal]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1185)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in F[com.uzo.shoppingcart.domain.cart.CartTotal]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1173, 1173, 1185)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 5.76s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.52s
+ERROR Failed to compile 'core'
+Jan 05, 2020 6:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 998
+Jan 05, 2020 6:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 997
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in dev.profunktor.redis4cats.algebra.RedisCommands[F,String,String]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 756, 756, 788)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.86s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.54s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.73s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.17s
+ERROR Failed to compile 'core'
+Jan 05, 2020 6:59:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1142
+Jan 05, 2020 7:00:02 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/sift/,AppenderTracker.class)
+Jan 05, 2020 7:00:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1336
+Jan 05, 2020 7:00:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1353
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.17s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.81s
+ERROR Failed to compile 'core'
+Jan 05, 2020 7:01:30 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1793)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.Cart]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1796)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1799)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1799)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1801)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1799)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1798)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1797)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.Cart]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1796)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1798)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.CartItem]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.CartItem]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.CartItem]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.56s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  Double <: squants.market.Money?
+INFO  false
+INFO  Double <: squants.market.Money?
+INFO  false
+INFO  time: compiled core in 1.41s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  Double <: squants.market.Money?
+INFO  false
+INFO  Double <: squants.market.Money?
+INFO  false
+INFO  time: compiled core in 1.14s
+ERROR Failed to compile 'core'
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.CartItem]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in List[com.uzo.shoppingcart.domain.cart.CartItem]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 1786, 1786, 1800)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.52s
+ERROR Failed to compile 'core'
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:68:43: stale scalac error: illegal cyclic reference involving value cart
+    def update(userId: auth.UserId, cart: cart.Cart): F[Unit] = ???
+                                          ^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+Jan 05, 2020 7:04:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1849
+Jan 05, 2020 7:05:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1908
+Jan 05, 2020 7:05:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1943
+Jan 05, 2020 7:05:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1952
+Jan 05, 2020 7:05:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1969
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.84s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 4.2s
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:3:1: stale scalac warning: Unused import
+import cats.effect._
+^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala:27:3: stale scalac warning: private constructor in class LiveShoppingCart is never used
+> items: Items[F],
+>   redis: RedisCommands[F, String, String],
+>   exp: ShoppingCartExpiration
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 5.85s
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in com.uzo.shoppingcart.algebras.GenUUID[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 820, 820, 829)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala in com.uzo.shoppingcart.algebras.ShoppingCart[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/cart.scala, 955, 955, 970)
+Jan 05, 2020 7:13:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3018
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.68s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.91s
+Jan 05, 2020 7:14:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3105
+Jan 05, 2020 7:14:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3107
+Jan 05, 2020 7:15:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3329
+Jan 05, 2020 7:16:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3479
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:4:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.http.auth.users.User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:4:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.http.auth.users.User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:4:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.http.auth.users.User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:4:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.http.auth.users.User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:4:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.http.auth.users.User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:4:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.http.auth.users.User
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.45s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.47s
+ERROR Failed to compile 'core'
+Jan 05, 2020 7:46:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4060
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.15s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.78s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.41s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.45s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.34s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.81s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.44s
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+Jan 05, 2020 7:49:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4371
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2508)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2501)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2502)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2503)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[com.uzo.shoppingcart.http.auth.users.User]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2504)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2505)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2506)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2497, 2497, 2509)
+Jan 05, 2020 7:50:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4535
+Jan 05, 2020 7:53:07 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:53:08 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:53:08 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:53:08 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:53:08 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:53:08 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:53:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4841
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:53:16 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Users[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 2967, 2967, 2982)
+Jan 05, 2020 7:53:30 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/rolling/,SizeBasedTriggeringPolicy.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Auth[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3029, 3029, 3043)
+Jan 05, 2020 7:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5049
+Jan 05, 2020 7:56:11 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:56:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:56:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:56:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:56:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:56:12 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 7:56:32 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:14:1: stale scalac warning: Unused import
+import com.uzo.shoppingcart.effects._
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+INFO  /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala:15:1: stale scalac warning: Unused import
+import io.circe.syntax._
+^^^^^^^^^^^^^^^^^^^^^^^^
+Jan 05, 2020 7:58:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5726
+Jan 05, 2020 7:58:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5728
+Jan 05, 2020 7:58:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5729
+Jan 05, 2020 7:59:26 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/util/,InvocationGate.class)
+Jan 05, 2020 7:59:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5963
+Jan 05, 2020 8:00:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6060
+Jan 05, 2020 8:01:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6212
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 3.09s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.9s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.65s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.49s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.85s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.43s
+ERROR Failed to compile 'core'
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3166)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3167)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3168)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3169)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:15:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3170)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3180)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3180)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3181)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3181)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3162, 3162, 3173)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:15:31 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 8:15:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+INFO  compiling core (1 scala source)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Tokens[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3226, 3226, 3235)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Tokens[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 3226, 3226, 3235)
+INFO  time: compiled core in 5.49s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 3.47s
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Users[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5114, 5114, 5129)
+Jan 05, 2020 8:21:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6921
+Jan 05, 2020 8:21:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6949
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5181, 5181, 5192)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5181, 5181, 5185)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5181, 5181, 5188)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Auth[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5183, 5183, 5197)
+Jan 05, 2020 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6978
+Jan 05, 2020 8:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7052
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.57s
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in cats.effect.Sync[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5021, 5021, 5027)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.29s
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala in com.uzo.shoppingcart.algebras.Tokens[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala, 5081, 5081, 5090)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.89s
+Jan 05, 2020 8:23:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7192
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.69s
+Jan 05, 2020 8:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7225
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.44s
+ERROR Failed to compile 'core'
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.5s

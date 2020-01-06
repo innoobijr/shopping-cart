@@ -2,178 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2b27d3d-c63b-46ef-97b3-7971b4634512" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/shopping-cart-core-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/GenUUID.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/untitled.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/ext/skunkx.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/tables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/updateFull/update_cache_2.13/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/scala-2.13/updateFull/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/shopping-cart-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shopping-cart-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/Dependencies.scala" beforeDir="false" afterPath="$PROJECT_DIR$/project/Dependencies.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22e35fb2539f387baebc$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22e35fb2539f387baebc.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$22e35fb2539f387baebc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e5623e50092ec6a4630$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e5623e50092ec6a4630.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e5623e50092ec6a4630.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4284ae9c719a8f20abc6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4284ae9c719a8f20abc6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4284ae9c719a8f20abc6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68317058502f14afecba$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68317058502f14afecba.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$68317058502f14afecba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fe637aea8ddb1e6b3cc$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fe637aea8ddb1e6b3cc.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8fe637aea8ddb1e6b3cc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e31d791ff2c4de8658fe$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e31d791ff2c4de8658fe.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e31d791ff2c4de8658fe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f90e047a5aef0b418532$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f90e047a5aef0b418532.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f90e047a5aef0b418532.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Libraries$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Libraries$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Versions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies$Versions$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/classes/Dependencies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/auth.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/brands.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/brands.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/categories.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/items.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/items.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/algebras/users.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/brand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/brand.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/domain/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/effects.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/effects/effects.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/json.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/params.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/params.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/ItemRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/ItemRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminCategoryRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminCategoryRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminItemRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/admin/AdminItemRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LogoutRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/auth/LogoutRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CheckoutRoutes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/http/routes/secured/CheckoutRoutes.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/notes/design_bits.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/notes/design_bits.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/programs/checkout.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/uzo/shoppingcart/programs/checkout.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Auth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Brands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Brands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Categories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/algebras/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$CreateUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$Ops$newtype$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$Ops$newtype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$EncruptCipher$Tag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$UnsupportedOperated$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$UserNameInUser$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth$UserNameInUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/domain/auth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/effects/effects/package$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/effects/effects/package$MonadThrow$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/effects/effects/package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$$anon$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$anon$macro$99$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1$anon$macro$99$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$101$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$$anon$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$anon$macro$109$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1$anon$macro$109$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$111$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$$anon$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$anon$macro$119$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1$anon$macro$119$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$121$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$$anon$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$anon$macro$129$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1$anon$macro$129$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$131$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$$anon$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$anon$macro$143$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1$anon$macro$143$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$145$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$$anon$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$anon$macro$157$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1$anon$macro$157$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$159$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$$anon$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$anon$macro$167$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1$anon$macro$167$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$169$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$$anon$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$anon$macro$177$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1$anon$macro$177$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$179$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$$anon$32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$anon$macro$187$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1$anon$macro$187$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$189$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$$anon$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$anon$macro$17$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1$anon$macro$17$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$19$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$$anon$34.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$anon$macro$197$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1$anon$macro$197$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$199$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$$anon$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$anon$macro$27$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1$anon$macro$27$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$29$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$$anon$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$anon$macro$37$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1$anon$macro$37$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$39$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$$anon$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$anon$macro$55$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1$anon$macro$55$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$57$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$$anon$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$anon$macro$73$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1$anon$macro$73$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$75$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$$anon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$anon$macro$7$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1$anon$macro$7$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$9$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$$anon$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$anon$macro$89$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1$anon$macro$89$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json$anon$lazy$macro$91$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/json.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/params.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$BrandQueryParam$$anonfun$$lessinit$greater$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$BrandQueryParam$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes$BrandQueryParam$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/http/routes/ItemRoutes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/notes/design_bits.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/notes/design_bits.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$createOrder$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$processPayment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram$$anonfun$processPayment$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/uzo/shoppingcart/programs/CheckoutProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/update/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,6 +76,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="6312461781000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="990018961" />
         <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="3774791916" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2912332145" />
@@ -306,14 +136,19 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="211" y="175" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578190630001" />
+    <state x="514" y="109" key="NewModule_or_Project.wizard" timestamp="1578204005365">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="514" y="109" key="NewModule_or_Project.wizard/0.23.1440.834@0.23.1440.834" timestamp="1578204005365" />
     <state x="229" y="23" width="1024" height="834" key="SettingsEditor" timestamp="1578190552258">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="229" y="23" width="1024" height="834" key="SettingsEditor/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578190552258" />
-    <state x="399" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1578190737465">
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1578203885228">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="399" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.834/1440.23.1280.1001@0.23.1440.834" timestamp="1578190737465" />
+    <state x="399" y="272" key="com.intellij.ide.util.TipDialog/0.23.1440.834@0.23.1440.834" timestamp="1578203885228" />
   </component>
   <component name="WorksheetDefaultProjectSettings">
     <option name="compilerProfileName" value="Default" />

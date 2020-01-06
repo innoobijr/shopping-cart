@@ -2732,3 +2732,191 @@ INFO  time: compiled core in 1.44s
 ERROR Failed to compile 'core'
 INFO  compiling core (1 scala source)
 INFO  time: compiled core in 2.5s
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.2s
+Jan 05, 2020 8:26:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7467
+Jan 05, 2020 8:26:56 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/db/dialect/,PostgreSQLDialect.class)
+Jan 05, 2020 8:26:56 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/,PostCompileProcessor.class)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 3.25s
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 1.31s
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 394)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 387)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 388)
+Jan 05, 2020 8:28:00 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/,Appender.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[App]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 389)
+Jan 05, 2020 8:28:01 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderServerRunner.class)
+Jan 05, 2020 8:28:01 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderStreamClient.class)
+Jan 05, 2020 8:28:01 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderServerListener.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 390)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 391)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 392)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 393)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 394)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 395)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 395)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 383, 383, 395)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParArray.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParArray$.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParArray$ParArrayIterator.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ParArray$ParArrayIterator$.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,UnrolledParArrayCombiner.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,UnrolledParArrayCombiner$.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ResizableParArrayCombiner.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/mutable/,ResizableParArrayCombiner$.class)
+Jan 05, 2020 8:30:49 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/,package$CollectionsHaveToParArray.class)
+Jan 05, 2020 8:30:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7763
+Jan 05, 2020 8:30:51 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/,ParSet.class)
+Jan 05, 2020 8:30:54 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/util/,TimeUtil.class)
+Jan 05, 2020 8:31:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/script/,Reset.class)
+Jan 05, 2020 8:31:05 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/script/,Reset$.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 566, 566, 587)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 566, 566, 581)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 566, 566, 582)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 566, 566, 586)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Session[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 578, 578, 595)
+Jan 05, 2020 8:31:24 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/rolling/,SizeBasedTriggeringPolicy.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 698)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 692)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 691)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 698)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 691)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,Int]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 693)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,Int]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 693)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Query[skunk.Void,Int]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 677, 677, 693)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in dev.profunktor.redis4cats.algebra.RedisCommands[F,String,String]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 602, 602, 634)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 792)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 785)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 789)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 791)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 792)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 793)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 792)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 791)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 791)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 792)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 791)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 791)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 793)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 794)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 793)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 793)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[com.uzo.shoppingcart.domain.healthcheck.RedisStatus]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 795)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[com.uzo.shoppingcart.domain.healthcheck.RedisStatus]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 795)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[com.uzo.shoppingcart.domain.healthcheck.RedisStatus]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 781, 781, 795)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 989)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 982)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 983)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 984)
+Jan 05, 2020 8:33:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/db/dialect/,PostgreSQLDialect.class)
+Jan 05, 2020 8:33:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/,PostCompileProcessor.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 985)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 986)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 987)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 988)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 989)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 990)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 991)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 992)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[com.uzo.shoppingcart.domain.healthcheck.PostgresStatus]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 995)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[com.uzo.shoppingcart.domain.healthcheck.PostgresStatus]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 995)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[com.uzo.shoppingcart.domain.healthcheck.PostgresStatus]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 978, 978, 995)
+Jan 05, 2020 8:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/db/dialect/,PostgreSQLDialect.class)
+Jan 05, 2020 8:34:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/,PostCompileProcessor.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1186)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1179)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1180)
+Jan 05, 2020 8:34:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/,Appender.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[App]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1181)
+Jan 05, 2020 8:34:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderServerRunner.class)
+Jan 05, 2020 8:34:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderStreamClient.class)
+Jan 05, 2020 8:34:59 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderServerListener.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1182)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1183)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1184)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1185)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1187)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1187)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 1175, 1175, 1187)
+Jan 05, 2020 8:35:17 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/,Appender.class)
+Jan 05, 2020 8:35:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderServerRunner.class)
+Jan 05, 2020 8:35:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderStreamClient.class)
+Jan 05, 2020 8:35:18 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/classic/net/server/,RemoteAppenderServerListener.class)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.98s
+ERROR Failed to compile 'core'
+Jan 05, 2020 8:35:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in dev.profunktor.redis4cats.algebra.RedisCommands[F,String,String]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 602, 602, 634)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,skunk.Session[F]]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 566, 566, 589)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,skunk.Session[F]]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 566, 566, 589)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.42s
+ERROR Failed to compile 'core'
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in dev.profunktor.redis4cats.algebra.RedisCommands[F,String,String]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 602, 602, 634)
+Jan 05, 2020 8:36:42 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/,ParSet.class)
+Jan 05, 2020 8:36:43 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/parallel/,ParSet.class)
+Jan 05, 2020 8:36:46 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/util/,TimeUtil.class)
+Jan 05, 2020 8:36:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/script/,Reset.class)
+Jan 05, 2020 8:36:53 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/collection/script/,Reset$.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 526, 526, 547)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 526, 526, 540)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 526, 526, 541)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 526, 526, 542)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Resource[F,<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 526, 526, 546)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in skunk.Session[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 538, 538, 555)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 606, 606, 617)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 606, 606, 613)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 606, 606, 615)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in com.uzo.shoppingcart.algebras.HealthCheck[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 608, 608, 629)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.effect.Concurrent[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 472, 472, 484)
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 0.54s
+ERROR Failed to compile 'core'
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.Parallel[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 485, 485, 495)
+INFO  compiling core (2 scala sources)
+INFO  time: compiled core in 3.48s

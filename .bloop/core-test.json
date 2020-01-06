@@ -2,12 +2,12 @@
     "version" : "1.1.2",
     "project" : {
         "name" : "core-test",
-        "directory" : "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart",
+        "directory" : "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core",
         "sources" : [
-            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/test/scala-2.13",
-            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/test/scala",
-            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/test/java",
-            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/target/scala-2.13/src_managed/test"
+            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core/src/test/scala-2.13",
+            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core/src/test/scala",
+            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core/src/test/java",
+            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core/target/scala-2.13/src_managed/test"
         ],
         "dependencies" : [
             "core"
@@ -94,8 +94,8 @@
         "out" : "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core",
         "classesDir" : "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/test-classes",
         "resources" : [
-            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/test/resources",
-            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/target/scala-2.13/resource_managed/test"
+            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core/src/test/resources",
+            "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/core/target/scala-2.13/resource_managed/test"
         ],
         "scala" : {
             "organization" : "org.scala-lang",

@@ -2920,3 +2920,227 @@ ERROR Failed to compile 'core'
 something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala in cats.Parallel[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/healthcheck.scala, 485, 485, 495)
 INFO  compiling core (2 scala sources)
 INFO  time: compiled core in 3.48s
+INFO  compiling core (1 scala source)
+INFO  time: compiled core in 2.46s
+ERROR Failed to compile 'core'
+INFO  compiling core (2 scala sources)
+INFO  time: compiled core in 1.62s
+ERROR Failed to compile 'core'
+INFO  compiling core (2 scala sources)
+INFO  time: compiled core in 0.61s
+ERROR Failed to compile 'core'
+Jan 05, 2020 8:45:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:45:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:45:13 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in com.uzo.shoppingcart.algebras.Tokens[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 527, 527, 543)
+ERROR code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala' because the SemanticDB file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/bloop-bsp-clients-classes/classes-Metals-6mOUuU7rSJiScgVeucb2Lg==/META-INF/semanticdb/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala' because the SemanticDB file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/bloop-bsp-clients-classes/classes-Metals-6mOUuU7rSJiScgVeucb2Lg==/META-INF/semanticdb/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala' because the SemanticDB file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/bloop-bsp-clients-classes/classes-Metals-6mOUuU7rSJiScgVeucb2Lg==/META-INF/semanticdb/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala' because the SemanticDB file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/bloop-bsp-clients-classes/classes-Metals-6mOUuU7rSJiScgVeucb2Lg==/META-INF/semanticdb/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala' because the SemanticDB file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/bloop-bsp-clients-classes/classes-Metals-6mOUuU7rSJiScgVeucb2Lg==/META-INF/semanticdb/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala' because the SemanticDB file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core/scala-2.13/bloop-bsp-clients-classes/classes-Metals-6mOUuU7rSJiScgVeucb2Lg==/META-INF/semanticdb/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+INFO  compiling core (2 scala sources)
+INFO  time: compiled core in 0.55s
+ERROR Failed to compile 'core'
+Jan 05, 2020 8:46:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/concurrent/forkjoin/,package.class)
+Jan 05, 2020 8:46:27 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(scala/concurrent/forkjoin/,package$.class)
+Jan 05, 2020 8:46:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1237)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1260)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:243)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:179)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+Jan 05, 2020 8:46:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1237)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1260)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:243)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:179)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+Jan 05, 2020 8:47:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1237)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1260)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:243)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+Jan 05, 2020 8:48:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 05, 2020 8:48:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 05, 2020 8:48:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 05, 2020 8:48:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 05, 2020 8:48:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 05, 2020 8:48:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+INFO  compiling core (2 scala sources)
+INFO  time: compiled core in 0.92s
+ERROR Failed to compile 'core'
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in com.uzo.shoppingcart.algebras.Tokens[F]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 592, 592, 601)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 525, 525, 536)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 525, 525, 530)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Token.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/pattern/parser/,Token.class)
+Jan 05, 2020 8:49:28 PM scala.meta.internal.pc.CompletionProvider scala$meta$internal$pc$CompletionProvider$$loadSymbolFromClassfile
+WARNING: no such symbol: Classfile(ch/qos/logback/core/subst/,Tokenizer.class)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 525, 525, 533)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in F[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 525, 525, 534)
+something's wrong: no file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala in com.uzo.shoppingcart.algebras.Tokens[<error>]RangePosition(file:///Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/src/main/scala/com/uzo/shoppingcart/algebras/tokens.scala, 527, 527, 543)
+INFO  compiling core (2 scala sources)
+INFO  time: compiled core in 4.16s
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/build.sbt
+Jan 05, 2020 8:53:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10398
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/build.sbt
+WARN  no build target: 
+INFO  running '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/metals6822831682027624695/sbt-launch.jar metalsEnable bloopInstall'
+INFO  [info] Loading settings for project global-plugins from idea.sbt,metals.sbt ...
+INFO  [info] Loading global plugins from /Users/innocentjr/.sbt/1.0/plugins
+INFO  [info] Loading settings for project shoppingcart-build from plugins.sbt ...
+INFO  [info] Loading project definition from /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/shoppingcart-build.json
+INFO  [success] Total time: 3 s, completed Jan 5, 2020 8:55:03 PM
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project root from build.sbt ...
+INFO  [info] Set current project to shoppingcart (in build file:/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/)
+INFO  [info] Set current project to shoppingcart (in build file:/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/)
+INFO  [info] semanticdb-scalac is enabled
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/tests-test.json
+INFO  [success] Generated .bloop/tests.json
+INFO  [success] Generated .bloop/root-test.json
+INFO  [success] Generated .bloop/root.json
+INFO  [success] Generated .bloop/core-it.json
+INFO  [success] Generated .bloop/core.json
+INFO  [success] Generated .bloop/core-test.json
+INFO  [success] Total time: 2 s, completed Jan 5, 2020 8:55:12 PM
+INFO  time: ran 'sbt bloopInstall' in 30s
+INFO  build tool exit: 0
+INFO  disconnected: build server
+shutdown request received: build/shutdown
+[0m[31m[E][0m BSP server cancelled, closing socket...
+Client in /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop triggered cancellation. Cancelling tasks...
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/bsp6066450832767822433/-3sv8pauufvtg.socket'
+INFO  bloop exit: 0
+The server is listening for incoming connections at local:///var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/bsp6066450832767822433/-3sv8pauufvtg.socket...
+Accepted incoming BSP client connection at local:///var/folders/q9/4j5s9t_s62l0wmyp8s7dlngw0000gn/T/bsp6066450832767822433/-3sv8pauufvtg.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/innocentjr/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 0.29s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.43s
+INFO  time: indexed workspace in 1.9s
+Jan 05, 2020 8:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10490
+INFO  compiling core (43 scala sources)
+INFO  time: compiled core in 25s
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/build.sbt
+WARN  no build target: 
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala
+Jan 05, 2020 9:02:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10689
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+Jan 05, 2020 9:05:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10885
+Jan 05, 2020 9:05:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10937
+Jan 05, 2020 9:06:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10986
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/arbitraries.scala
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/arbitraries.scala
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala' because it doesn't belong to a build target.
+WARN  no build target: /Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/modules/tests/src/main/shop/generators.scala

@@ -13,9 +13,25 @@ lazy val root = (project in file("."))
   .settings(
     name := "shoppingcart"
   )
-  .aggregate(core)
+  .aggregate(core, tests)
 
-lazy val core = (project in file("."))
+lazy val tests = (project in file("modules/tests"))
+  .configs(IntegratonsTest)
+  .settings(
+    name := "shoppingcart-test-suite",
+    scalacOptions += "-Ymacro-annotations",
+    Defaults.itSettings,
+    libraryDependencies ++= Seq(
+      compilerPlugin(Libraries.kindProjector cross CrossVersion.full),
+          compilerPlugin(Libraries.betterMonadicFor),
+          Libraries.scalaCheck,
+          Libraries.scalaTest,
+          Libraries.scalaTestPlus
+    )
+  )
+  .dependsOn(core)
+
+lazy val core = (project in file("modules/core"))
   .settings(
     name := "shopping-cart-core",
     scalacOptions += "-Ymacro-annotations",

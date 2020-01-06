@@ -1,0 +1,4 @@
+[debug] [core-it] Classpath dependencies List()
+[debug] [core-it] Dependencies from configurations List(core)
+[debug] Bloop wrote the configuration of project 'core-it' to '/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/core-it.json'
+[success] Generated .bloop/core-it.json

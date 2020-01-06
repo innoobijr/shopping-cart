@@ -11,7 +11,8 @@
         ],
         "dependencies" : [
             "root",
-            "core-test"
+            "core-test",
+            "tests-test"
         ],
         "classpath" : [
             "/Volumes/TOSHIBA_EXT/dev/scala/shoppingcart/.bloop/root/scala-2.13/classes",

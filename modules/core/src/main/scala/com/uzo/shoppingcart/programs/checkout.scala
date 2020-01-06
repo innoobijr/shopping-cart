@@ -3,7 +3,6 @@ package com.uzo.shoppingcart.programs
 import cats.effect.Timer
 import cats.implicits._
 import retry._
-import retry.RetryPolicies._
 import retry.RetryDetails._
 import io.chrisdavenport.log4cats.Logger
 import com.uzo.shoppingcart.algebras._
@@ -20,11 +19,12 @@ import scala.concurrent.duration._
 final class CheckoutProgram[F[_]: Background: Logger: MonadThrow: Timer](
                                         paymentClient: PaymentClient[F],
                                         shoppingCart: ShoppingCart[F],
-                                        orders: Orders[F]
+                                        orders: Orders[F],
+                                        retryPolicy: RetryPolicy[F]
                                         ) {
 
   //Retry policy
-  val retryPolicy = limitRetries[F](3) |+| exponentialBackoff[F](10.milliseconds)
+  //val retryPolicy = limitRetries[F](3) |+| exponentialBackoff[F](10.milliseconds)
   def logError(action: String)(
               e: Throwable,
               details: RetryDetails

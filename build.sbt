@@ -15,19 +15,20 @@ lazy val root = (project in file("."))
   )
   .aggregate(core, tests)
 
-lazy val tests = (project in file("modules/tests"))
-  .configs(IntegratonsTest)
+  lazy val tests = (project in file("modules/tests"))
+  .configs(IntegrationTest)
   .settings(
-    name := "shoppingcart-test-suite",
+    name := "shopping-cart-test-suite",
     scalacOptions += "-Ymacro-annotations",
+    scalafmtOnCompile := true,
     Defaults.itSettings,
     libraryDependencies ++= Seq(
-      compilerPlugin(Libraries.kindProjector cross CrossVersion.full),
+          compilerPlugin(Libraries.kindProjector cross CrossVersion.full),
           compilerPlugin(Libraries.betterMonadicFor),
           Libraries.scalaCheck,
           Libraries.scalaTest,
           Libraries.scalaTestPlus
-    )
+        )
   )
   .dependsOn(core)
 

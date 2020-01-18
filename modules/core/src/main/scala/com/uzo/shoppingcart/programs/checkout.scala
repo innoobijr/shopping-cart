@@ -15,6 +15,7 @@ import com.uzo.shoppingcart.http.clients.PaymentClient
 import squants.market.Money
 
 import scala.concurrent.duration._
+//import scala.concurrent.
 
 final class CheckoutProgram[F[_]: Background: Logger: MonadThrow: Timer](
                                         paymentClient: PaymentClient[F],
